@@ -25,8 +25,11 @@ export default function App() {
   return (
     <div>
       <header>
-        <h1>🏠 STAFFLINK</h1>
-        <p className="tagline">The right help. Complete peace of mind.</p>
+        <h1 style={{ marginBottom: 0 }}>🏠 ALL HANDS</h1>
+        <div style={{ fontSize: 10, color: '#b7c1d6', letterSpacing: '0.15em', marginTop: 2, marginBottom: 6 }}>
+          DOMESTIC STAFFING AGENCY
+        </div>
+        <p className="tagline">The Right Help. Complete Peace of Mind.</p>
         <nav>
           <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Request Staff</Link>
           <Link to="/join" className={location.pathname === '/join' ? 'active' : ''}>Join Our Team</Link>
