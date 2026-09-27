@@ -25,10 +25,11 @@ export default function App() {
   return (
     <div>
       <header>
-        <h1>StaffLink</h1>
+        <h1>🏠 STAFFLINK</h1>
+        <p className="tagline">The right help. Complete peace of mind.</p>
         <nav>
-          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Request staff</Link>
-          <Link to="/join" className={location.pathname === '/join' ? 'active' : ''}>Join as staff</Link>
+          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Request Staff</Link>
+          <Link to="/join" className={location.pathname === '/join' ? 'active' : ''}>Join Our Team</Link>
           <Link to="/admin" className={location.pathname === '/admin' ? 'active' : ''}>Admin</Link>
         </nav>
       </header>
