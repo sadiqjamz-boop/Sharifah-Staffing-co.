@@ -28,12 +28,10 @@ export default function ClientRequestPage() {
       notes: form.notes.trim() || null,
     });
     setSaving(false);
-        if (insertError) {
+    if (insertError) {
       setError('Error: ' + insertError.message);
       console.error(insertError);
       return;
-    }
-
     }
     setSubmitted(true);
     setForm({ client_name: '', phone: '', role: ROLES[0], location: '', notes: '' });
