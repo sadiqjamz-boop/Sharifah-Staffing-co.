@@ -12,3 +12,4 @@ if (!supabaseUrl || !supabaseAnonKey) {
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export const ROLES = ['Cook', 'Driver', 'Gateman', 'House help / Maid'];
+export const AVAILABILITY = ['Full-time', 'Part-time', 'Live-in', 'Weekends only'];
